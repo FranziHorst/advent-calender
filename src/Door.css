@@ -1,0 +1,18 @@
+.Door {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: white;
+  border-left: 50px solid crimson;
+  border-right: 50px solid crimson;
+  border-radius: 20px;
+  transition: border-width 1s ease;
+  font-family: 'Spicy Rice', cursive;
+  font-size: 20px;
+}
+
+.open {
+  border-width: 0;
+  color: crimson;
+}

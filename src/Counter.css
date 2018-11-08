@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice');
+
+h1 {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  font-family: 'Spicy Rice', cursive;
+}
